@@ -29,7 +29,7 @@ def main(input_str: str):
         else:
             return 'throws Exception //Неподдерживаемый оператор'
 
-        return result
+        return str(result)
 
     except Exception as e:
         return f'throws Exception // {e}'
